@@ -1,0 +1,27 @@
+entity,value,should_detect,context
+uae_emirates_id,784-1976-3831366-4,true,Customer Emirates ID: 784-1976-3831366-4
+uae_emirates_id,784-1976-3831366-5,false,Emirates ID 784-1976-3831366-5 (bad checksum)
+uae_iban,AE61 9364 7625 5477 4819 149,true,Beneficiary IBAN AE61 9364 7625 5477 4819 149
+uae_iban,AE61 9364 7625 5477 4819 140,false,IBAN AE61 9364 7625 5477 4819 140 (bad checksum)
+uae_emirates_id,784-1970-1171692-1,true,Customer Emirates ID: 784-1970-1171692-1
+uae_emirates_id,784-1970-1171692-2,false,Emirates ID 784-1970-1171692-2 (bad checksum)
+uae_iban,AE11 0664 0943 8447 0063 800,true,Beneficiary IBAN AE11 0664 0943 8447 0063 800
+uae_iban,AE11 0664 0943 8447 0063 801,false,IBAN AE11 0664 0943 8447 0063 801 (bad checksum)
+uae_emirates_id,784-2004-3390874-4,true,Customer Emirates ID: 784-2004-3390874-4
+uae_emirates_id,784-2004-3390874-5,false,Emirates ID 784-2004-3390874-5 (bad checksum)
+uae_iban,AE18 6856 4785 7242 6883 211,true,Beneficiary IBAN AE18 6856 4785 7242 6883 211
+uae_iban,AE18 6856 4785 7242 6883 212,false,IBAN AE18 6856 4785 7242 6883 212 (bad checksum)
+uae_emirates_id,784-2002-0429679-0,true,Customer Emirates ID: 784-2002-0429679-0
+uae_emirates_id,784-2002-0429679-1,false,Emirates ID 784-2002-0429679-1 (bad checksum)
+uae_iban,AE62 9231 6751 5375 7164 753,true,Beneficiary IBAN AE62 9231 6751 5375 7164 753
+uae_iban,AE62 9231 6751 5375 7164 754,false,IBAN AE62 9231 6751 5375 7164 754 (bad checksum)
+uae_emirates_id,784-1963-5686815-6,true,Customer Emirates ID: 784-1963-5686815-6
+uae_emirates_id,784-1963-5686815-7,false,Emirates ID 784-1963-5686815-7 (bad checksum)
+uae_iban,AE57 4442 0737 1170 8790 111,true,Beneficiary IBAN AE57 4442 0737 1170 8790 111
+uae_iban,AE57 4442 0737 1170 8790 112,false,IBAN AE57 4442 0737 1170 8790 112 (bad checksum)
+uae_mobile,+971 50 123 4567,true,Mobile: +971 50 123 4567
+uae_mobile,0551234567,true,WhatsApp 0551234567
+uae_landline,+971 4 123 4567,true,Office tel +971 4 123 4567
+uae_trn,100123456700003,true,TRN: 100123456700003
+uae_trn,100123456700003,false,Reference 100123456700003 (no keyword)
+uae_passport,A1234567,true,Passport No. A1234567

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uae-pii-patterns"
+version = "1.0.0"
+description = "Detection patterns and validators for UAE PII: Emirates ID, IBAN, phone, TRN, passport"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohamed Faizal (MoFa)" }]
+requires-python = ">=3.9"
+dependencies = ["PyYAML>=6.0"]
+keywords = ["uae", "pii", "dlp", "privacy", "pdpl", "emirates-id", "presidio", "purview"]
+
+[project.optional-dependencies]
+presidio = ["presidio-analyzer>=2.2"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+uae-pii = "uae_pii.__main__:main"
+
+[tool.setuptools]
+packages = ["uae_pii"]
+
+[tool.setuptools.package-data]
+uae_pii = ["patterns.yaml"]
